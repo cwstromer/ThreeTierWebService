@@ -1,0 +1,16 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/people",
+    "headers" : {
+      "Authorization" : {
+        "contains" : "i am a sesh token"
+      }
+    }
+  },
+  "response": {
+    "status": 401,
+    "body": "bad request"
+  }
+}
+

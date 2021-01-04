@@ -1,0 +1,16 @@
+{
+  "request": {
+    "method": "DELETE",
+    "url": "/people/1",
+    "headers" : {
+      "Authorization" : {
+        "contains" : "i am a session token"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "body": "[{\"id\":1,\"firstName\":\"Widget 1\"},{\"id\":2,\"firstName\":\"Widget 2\"},{\"id\":3,\"firstName\":\"Widget 3\"}]"
+  }
+}
+
